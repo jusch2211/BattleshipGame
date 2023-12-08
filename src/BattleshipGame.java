@@ -36,6 +36,16 @@ public class BattleshipGame {
         return gameBoard;
     }
 
+    /**
+     * Prüft die Benutzereingabe ob ein Hit vorliegt.
+     * @param guessCoordinates
+     * @param gameBoard
+     * @param ship
+     * @param water
+     * @param hit
+     * @param miss
+     * @return
+     */
     private static char evaluateGuessAndGetTheTarget(int[] guessCoordinates, char[][] gameBoard, char ship, char water, char hit, char miss) {
         String message;
         int row = guessCoordinates[0];
