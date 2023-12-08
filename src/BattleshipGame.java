@@ -79,7 +79,7 @@ public class BattleshipGame {
         return new int[]{row - 1, col - 1};  //Nutzereingabe -1, da der Nutzer Row 1 eingibt, technisch aber Row 0 meint
 
     }
-
+//dfgdgf
     private static void printGameBoard(char[][] gameBoard, char water, char ship) {
         int gameBoardLength = gameBoard.length;
         System.out.print("  ");
